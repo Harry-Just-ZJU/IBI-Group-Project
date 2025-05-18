@@ -1,4 +1,5 @@
 import pandas as pd
+
 def create_codon_dics(file_path):
 
     codon = pd.read_csv(file_path, sep='\t')
